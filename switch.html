@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Switch Statement </title>
+</head>
+<body> 
+	<input type="number" id="x">
+	<button onclick="OnOff(ParseInt(document.getElementById('x').value))"> Check </button>
+	<script type="text/javascript">
+	Function OnOff(x){ 
+	switch(x){
+	Case0:
+	console.log("Off");
+	break;
+	Case1:
+	console.log("On");
+	break;
+	default:
+	console.log("Enter only 0 and 1");
+    }
+}
+</script>
+</body>
+</html>
