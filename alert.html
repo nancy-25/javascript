@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> alert </title>
+</head>
+<body>
+	<button onclick="alert('i am alert')"> alert </button>
+	<button onclick="confirm('i am confirm box')"> confirm </button>
+	<button onclick="prompt('i am prompt')"> prompt </button>
+	<script type="text/javascript">
+		function promptExample() {
+var txt;
+  var person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+  } else {
+    txt = "Hello " + person + "! How are you today?";
+  }
+  document.getElementById("demo").innerHTML = txt;
+    }
+</script>
+</body>
+</html>
